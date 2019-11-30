@@ -2,6 +2,7 @@ def join_ingredients(src)
   count = 0
   array_string = []
   while count < src.lenght do
+    counter = 0
     array_string = "I love #{src[count]} and #{src[count + 1]} on my pizza"
   end
   array_string
@@ -22,3 +23,11 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
 end
+
+# Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
+#
+# Build a new Array that contains strings where each pair of foods is
+# inserted into this template:
+#
+# "I love (inner array element 0) and (inner array element 1) on my pizza""
+# As such, there should be a new String for each inner array, or pair
