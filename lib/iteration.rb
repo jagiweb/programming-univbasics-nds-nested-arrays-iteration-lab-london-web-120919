@@ -3,43 +3,27 @@ def join_ingredients(src)
   array_string = []
   while index < src.length do
     array_string.push("I love #{src[index][0]} and #{src[index][1]} on my pizza")
-    index +=1
+    index++
   end
   array_string
 end
 
-def join_ingredients(src)
-  index = 0
-  array_string = []
-  message = ""
-  while index < src.length do
-    y = 0
-    while y < src[index].length do
-      array_string.push("I loves #{src[index][y]}
+# def join_ingredients(src)
+#   index = 0
+#   array_string = []
+#   message = ""
+#   while index < src.length do
+#     y = 0
+#     while y < src[index].length do
+#       array_string.push("I loves #{src[index][y]} and #{src[index][y]} on my pizza")
+#       y++
+#     end
+#     index +=1
+#
+#   end
+#   array_string
+# end
 
-      and #{src[index][y]} on my pizza")
-    end
-    index +=1
-
-  end
-  array_string
-end
-
-array = [1,2]
-loop {
-  stringElement = ""
-  y = 0
-  Loop {
-    if (y = 0)
-    stringElement = stringElement + "I love {}"
-    if (y = array.length - 1)
-      stringElement = stringElement + "and {} on my pizza"
-    else
-      stringElement = stringElement + "{}, "
-  }
-  array.push(stringElement)
-}
- return array
 
 
 def find_greater_pair(src)
