@@ -25,7 +25,7 @@ def join_ingredients(src)
   array_string
 end
 
-array = []
+array = [1,2]
 loop {
   stringElement = ""
   y = 0
