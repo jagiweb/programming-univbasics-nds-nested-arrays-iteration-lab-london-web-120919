@@ -8,6 +8,23 @@ def join_ingredients(src)
   array_string
 end
 
+def join_ingredients(src)
+  index = 0
+  array_string = []
+  message = ""
+  while index < src.length do
+    y = 0
+    while y < src[index].length do
+      array_string.push("I love #{src[index][y]} and #{src[index][y]} on my pizza")
+
+    end
+    index +=1
+  end
+  array_string
+end
+
+
+
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
