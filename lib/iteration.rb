@@ -3,7 +3,7 @@ def join_ingredients(src)
   array_string = []
   while index < src.length do
     array_string.push("I love #{src[index][0]} and #{src[index][1]} on my pizza")
-    index++
+    index +=1
   end
   array_string
 end
