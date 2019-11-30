@@ -39,7 +39,7 @@ loop {
   }
   array.push(stringElement)
 }
-
+ return array
 
 
 def find_greater_pair(src)
