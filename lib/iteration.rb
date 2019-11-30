@@ -2,8 +2,7 @@ def join_ingredients(src)
   count = 0
   array_string = []
   while count < src.lenght do
-    counter = 0
-    array_string = "I love #{src[count]} and #{src[count + 1]} on my pizza"
+    array_string = "I love #{src[count]} and #{src[count]} on my pizza"
   end
   array_string
 end
