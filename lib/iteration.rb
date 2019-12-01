@@ -42,6 +42,12 @@ end
 
 def total_even_pairs(src)
   total = 0
+  index = 0
+  while index < src.length do
+    if src[index][index] % 2 == 0
+      total = total + src[index][index]
+    end
+  end
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
