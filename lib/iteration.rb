@@ -8,24 +8,6 @@ def join_ingredients(src)
   array_string
 end
 
-# def join_ingredients(src)
-#   index = 0
-#   array_string = []
-#   message = ""
-#   while index < src.length do
-#     y = 0
-#     while y < src[index].length do
-#       array_string.push("I loves #{src[index][y]} and #{src[index][y]} on my pizza")
-#       y++
-#     end
-#     index +=1
-#
-#   end
-#   array_string
-# end
-
-
-
 def find_greater_pair(src)
   array = []
   index = 0
@@ -51,6 +33,24 @@ def total_even_pairs(src)
   end
   total
 end
+
+
+# def join_ingredients(src)
+#   index = 0
+#   array_string = []
+#   message = ""
+#   while index < src.length do
+#     y = 0
+#     while y < src[index].length do
+#       array_string.push("I loves #{src[index][y]} and #{src[index][y]} on my pizza")
+#       y++
+#     end
+#     index +=1
+#
+#   end
+#   array_string
+# end
+
 
 # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
 #
